@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_extTitle__",
+  "version": "0.0.1",
+  "default_locale": "en",
+  "description": "An example of chrome video extension",
+  "icons": {
+    "16": "images/icon16.png"
+  },
+  "browser_action": {
+    "default_popup": "html/popup.html",
+    "default_icon": {
+      "16": "images/icon16.png"
+    },
+    "default_title": "__MSG_extTitle__"
+  },
+  "background": {
+    "scripts": ["scripts/background.js"],
+    "persistent": false
+  }
+}
